@@ -1,0 +1,76 @@
+body {
+    width : 100%;
+    height : 100vh;
+    margin : 0;
+    padding : 0;
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#container {
+     display : flex;
+     justify-content: center;
+     align-items: center;
+     height: 100%;
+     background: url(/Media/login3.jpg);
+     background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
+     
+}
+
+h2 {
+    text-align: center;
+    color: rgb(243, 182, 243);
+}
+
+.main {
+    width : 320px;
+    background-color: rgb(0, 0, 0,0.9);
+    padding : 10px;
+    color : white;
+    border-radius: 20px;
+}
+
+.main div {
+    margin: 20px auto;
+    padding: 0 5px;
+}
+
+input#uname,#pword,#email{
+    width : 95%;
+    height: 20px;
+    margin: 10px auto 0;
+    padding : 5px;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(69, 2, 59);
+    border : 2px solid darkmagenta;
+    border-radius: 10px;
+}
+
+input[type="radio"]{ 
+    accent-color :rgb(69, 2, 59);
+    font-size: 40px;
+}
+
+input:focus {
+     background-color: plum;
+}
+.btn {
+    width : 100%;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    background-color: darkmagenta;
+    border-radius: 10px;
+    height : 40px;
+    border: 2px solid darkmagenta;
+    margin: 10px auto;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: white;
+    color :rgb(69, 2, 59);
+}
